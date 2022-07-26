@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Xml\TestModel;
+namespace Tests\TestModel;
 
 use PHPUnit\Framework\TestCase;
 use Xml\ModelInstanceInterface;
 use Xml\Impl\Parser\AbstractModelParser;
-use Tests\Xml\TestModel\TestModelParser;
-use Tests\Xml\TestModel\Instance\{
+use Tests\TestModel\TestModelParser;
+use Tests\TestModel\Instance\{
     Animal,
     Bird,
     RelationshipDefinition,
@@ -25,7 +25,7 @@ abstract class TestModelTest extends TestCase
     protected function parseModel(string $test)
     {
         $this->modelParser = new TestModelParser();
-        $xml = fopen('tests/Xml/TestModel/Resources/TestModel/' . $test . '.xml', 'r+');
+        $xml = fopen('tests/TestModel/Resources/TestModel/' . $test . '.xml', 'r+');
         $this->modelInstance = $this->modelParser->parseModelFromStream($xml);
     }
 

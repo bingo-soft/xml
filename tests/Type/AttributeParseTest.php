@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Xml\Type;
+namespace Tests\Type;
 
 class AttributeParseTest extends AttributeCreateTest
 {

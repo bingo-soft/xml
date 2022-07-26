@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Xml\TestModel;
+namespace Tests\TestModel;
 
 class Gender
 {

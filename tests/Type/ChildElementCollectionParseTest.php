@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Xml\Type;
+namespace Tests\Type;
 
-use Tests\Xml\TestModel\Instance\FlyingAnimal;
+use Tests\TestModel\Instance\FlyingAnimal;
 
 class ChildElementCollectionParseTest extends ChildElementCollectionCreateTest
 {

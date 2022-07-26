@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Xml\Type;
+namespace Tests\Type;
 
 use PHPUnit\Framework\TestCase;
 use Xml\ModelBuilder;
-use Tests\Xml\TestModel\{
+use Tests\TestModel\{
     TestModelConstants,
     TestModelParser
 };
-use Tests\Xml\TestModel\Instance\{
+use Tests\TestModel\Instance\{
     Animals,
     Animal,
     Bird,

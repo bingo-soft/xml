@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Xml\TestModel\Instance;
+namespace Tests\TestModel\Instance;
 
 use Xml\ModelBuilder;
 use Xml\Impl\Instance\ModelElementInstanceImpl;
-use Tests\Xml\TestModel\{
+use Tests\TestModel\{
     Gender,
     TestModelConstants
 };

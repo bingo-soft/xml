@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Xml\TestModel;
+namespace Tests\TestModel;
 
 use Xml\ModelInstanceInterface;
 use Xml\Impl\ModelInstanceImpl;
@@ -9,7 +9,7 @@ use Xml\Instance\DomDocumentInterface;
 
 class TestModelParser extends AbstractModelParser
 {
-    private const SCHEMA_LOCATION = "tests/Xml/TestModel/Resources/TestModel/Testmodel.xsd";
+    private const SCHEMA_LOCATION = "tests/TestModel/Resources/TestModel/Testmodel.xsd";
     private const TEST_NS = "http://test.org/animals";
 
     public function __construct()

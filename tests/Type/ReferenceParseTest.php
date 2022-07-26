@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Xml\Type;
+namespace Tests\Type;
 
-use Tests\Xml\TestModel\Instance\{
+use Tests\TestModel\Instance\{
     Animal,
     FlyingAnimal,
     FlightPartnerRef

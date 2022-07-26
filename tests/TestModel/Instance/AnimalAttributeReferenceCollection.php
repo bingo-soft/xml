@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Xml\TestModel\Instance;
+namespace Tests\TestModel\Instance;
 
 use Xml\Instance\ModelElementInstanceInterface;
 use Xml\Impl\Type\Attribute\AttributeImpl;

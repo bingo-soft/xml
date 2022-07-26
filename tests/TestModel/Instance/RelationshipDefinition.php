@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Xml\TestModel\Instance;
+namespace Tests\TestModel\Instance;
 
 use Xml\ModelBuilder;
 use Xml\Impl\Instance\ModelElementInstanceImpl;
-use Tests\Xml\TestModel\TestModelConstants;
+use Tests\TestModel\TestModelConstants;
 use Xml\Impl\Instance\ModelTypeInstanceContext;
 use Xml\Type\ModelTypeInstanceProviderInterface;
 
