@@ -10,7 +10,10 @@
     "homepage": "https://github.com/bingo-soft/xml",
     "type": "project",
     "config": {
-        "vendor-dir": "./vendor"
+        "vendor-dir": "./vendor",
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "require": {
         "php": "^7.4"
