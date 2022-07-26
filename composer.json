@@ -1,0 +1,33 @@
+{  
+    "name": "bingo-soft/xml",
+    "license": "MIT",
+    "authors": [{
+        "name": "Bingo-Soft",
+        "email": "bingosoft@bk.ru"
+    }],
+    "description": "Implementation of XML model - the core of BPMN engine",
+    "keywords": ["php", "xml", "bpmn", "model", "workflow", "process", "automation"],
+    "homepage": "https://github.com/bingo-soft/xml",
+    "type": "project",
+    "config": {
+        "vendor-dir": "./vendor"
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xml\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Tests\\": "./tests"
+        }
+    }
+}
