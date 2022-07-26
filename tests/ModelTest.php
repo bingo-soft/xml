@@ -4,11 +4,11 @@ namespace Tests\Xml;
 
 use PHPUnit\Framework\TestCase;
 use Xml\ModelBuilder;
-use Tests\Xml\TestModel\{
+use Tests\TestModel\{
     TestModel,
     TestModelConstants
 };
-use Tests\Xml\TestModel\Instance\{
+use Tests\TestModel\Instance\{
     Animals,
     Animal,
     Bird,

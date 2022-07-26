@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Xml\TestModel\Instance;
+namespace Tests\TestModel\Instance;
 
 use Xml\Impl\Util\StringUtil;
 use Xml\ModelInstanceInterface;
 use Xml\Impl\Parser\AbstractModelParser;
-use Tests\Xml\TestModel\{
+use Tests\TestModel\{
     Gender,
     TestModelConstants,
     TestModelParser
 };
-use Tests\Xml\TestModel\TestModelTest;
+use Tests\TestModel\TestModelTest;
 
 class BirdCreateModelTest extends TestModelTest
 {

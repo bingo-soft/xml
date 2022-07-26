@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Xml\TestModel;
+namespace Tests\TestModel;
 
 use Xml\{
     ModelBuilder,
     ModelInterface
 };
-use Tests\Xml\TestModel\Instance\{
+use Tests\TestModel\Instance\{
     Animal,
     Animals,
     AnimalReference,

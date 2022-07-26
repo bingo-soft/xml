@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Xml\TestModel\Instance;
+namespace Tests\TestModel\Instance;
 
 class AnimalParseModelTest extends AnimalCreateModelTest
 {
