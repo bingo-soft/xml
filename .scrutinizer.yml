@@ -6,6 +6,10 @@ build:
       environment:
         php: 7.4
         redis: false
+    php80:
+      environment:
+        php: 8.0
+        redis: false
     #coverage:
     #  tests:
     #    override:
