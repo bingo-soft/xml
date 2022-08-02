@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Test;
+namespace Xml\Test;
 
 use Xml\ModelInterface;
 

@@ -29,7 +29,7 @@ class DomElementImpl implements DomElementInterface
         $this->document = $element->ownerDocument;
     }
 
-    public function getElement(): DomElementExt
+    public function getElement(): ?DomElementExt
     {
         return $this->element;
     }

@@ -14,6 +14,8 @@ interface DomElementInterface
 
     public function getDocument(): ?DomDocumentInterface;
 
+    public function getElement(): ?\DOMElement;
+
     public function getRootElement(): ?DomElementInterface;
 
     public function getChildElements(): array;

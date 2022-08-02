@@ -92,6 +92,7 @@ class DomDocumentImpl implements DomDocumentInterface
                     return self::GENERIC_NS_PREFIX . $i;
                 }
             }
+            return self::GENERIC_NS_PREFIX . "0";
         }
     }
 
